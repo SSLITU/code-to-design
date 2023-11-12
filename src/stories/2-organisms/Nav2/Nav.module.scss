@@ -1,0 +1,66 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #fff;
+
+  .burger {
+    display: none;
+    cursor: pointer;
+  }
+
+  .navList {
+    list-style-type: none;
+    display: flex;
+    gap: 1rem;
+
+    .navItem {
+      display: block;
+      padding: 0.5rem 1rem;
+      text-decoration: none;
+      color: #333;
+      transition: color 0.3s ease;
+
+      &:hover,
+      &:focus {
+        color: #007bff;
+      }
+    }
+
+    .navItemSpecial {
+      background-color: #007bff;
+      color: #fff;
+      border-radius: 5px;
+      &:hover,
+      &:focus {
+        background-color: darken(#007bff, 10%);
+      }
+    }
+  }
+
+  .navListActive {
+    display: block;
+  }
+
+  @media (max-width: 768px) {
+    .burger {
+      display: block;
+    }
+
+    .navList {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      width: 100%;
+      background-color: #fff;
+      flex-direction: column;
+      display: none;
+
+      .navItem {
+        text-align: center;
+        padding: 1rem;
+      }
+    }
+  }
+}

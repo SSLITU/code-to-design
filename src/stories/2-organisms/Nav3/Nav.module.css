@@ -1,0 +1,24 @@
+.navbar {
+  /* your styles for navbar */
+}
+.navItem:hover,
+.navItem:focus {
+  /* hover and focus styles */
+}
+.burger {
+  /* styles for burger icon */
+  display: none;
+}
+.menu {
+  /* styles for menu items */
+  display: flex;
+}
+.show {
+  /* styles for when menu is visible */
+}
+
+@media (max-width: 768px) {
+  .burger {
+    display: block;
+  }
+}

@@ -1,0 +1,88 @@
+.box {
+  height: 60px;
+  position: relative;
+  width: 1440px;
+}
+
+.box .nav {
+  height: 60px;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 1440px;
+}
+
+.box .group {
+  height: 24px;
+  left: 165px;
+  position: absolute;
+  top: 18px;
+  width: 251px;
+}
+
+.box .text-wrapper {
+  color: #505f98;
+  font-family: 'Roboto-Regular', Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 24px;
+  position: absolute;
+  top: 0;
+  white-space: nowrap;
+}
+
+.box .div {
+  color: #505f98;
+  font-family: 'Roboto-Regular', Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  left: 98px;
+  letter-spacing: 0;
+  line-height: 24px;
+  position: absolute;
+  top: 0;
+  white-space: nowrap;
+}
+
+.box .text-wrapper-2 {
+  color: #505f98;
+  font-family: 'Roboto-Regular', Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  left: 196px;
+  letter-spacing: 0;
+  line-height: 24px;
+  position: absolute;
+  top: 0;
+  white-space: nowrap;
+}
+
+.box .element-button-small {
+  all: unset;
+  background-color: #111b47;
+  border-radius: 2px;
+  box-sizing: border-box;
+  height: 26px;
+  left: 1115px;
+  position: absolute;
+  top: 18px;
+  width: 160px;
+}
+
+.box .button-label {
+  all: unset;
+  box-sizing: border-box;
+  color: #ffffff;
+  font-family: 'Roboto-Medium', Helvetica;
+  font-size: 12px;
+  font-weight: 500;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 18px;
+  position: absolute;
+  text-align: center;
+  top: 3px;
+  width: 160px;
+}
